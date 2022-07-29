@@ -1,0 +1,12 @@
+<select name="userRole" id="userRole">
+    <option value="Administrator" <?php echo (isset($opt['userRole'])
+        && $opt['userRole'] == 'Administrator') ? "selected = 'selected'" : ''; ?>><?php _e('行政人员', 'dashboard-for-different-login-user') ?>(Administrator)</option>
+    <option value="Editor" <?php echo (isset($opt['userRole'])
+        && $opt['userRole'] == 'Editor') ? "selected = 'selected'" : ''; ?>><?php _e('编辑', 'dashboard-for-different-login-user') ?>(Editor)</option>
+    <option value="Author" <?php echo (isset($opt['userRole'])
+        && $opt['userRole'] == 'Author') ? "selected = 'selected'" : ''; ?>><?php _e('作者', 'dashboard-for-different-login-user') ?>(Author)</option>
+    <option value="Contributor" <?php echo (isset($opt['userRole'])
+        && $opt['userRole'] == 'Contributor') ? "selected = 'selected'" : ''; ?>><?php _e('贡献者', 'dashboard-for-different-login-user') ?>(Contributor)</option>
+    <option value="Subscriber" <?php echo (isset($opt['userRole'])
+        && $opt['userRole'] == 'Subscriber') ? "selected = 'selected'" : ''; ?>><?php _e('订阅者', 'dashboard-for-different-login-user') ?>(Subscriber)</option>
+</select>

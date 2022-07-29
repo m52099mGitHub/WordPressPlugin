@@ -1423,3 +1423,34 @@ function admincolin_simple_role_remove() {
 
 add_action('init', 'admincolin_simple_role_remove');
 ?>
+
+<?php
+// function hide_admin_menus() {
+    //     if (current_user_can( 'create_users' )) return;//若是管理员则不执行后续语句，不是管理员则继续执行后续语句
+    //     if (wp_get_current_user()->display_name == "Colin") return; //若当前用户公开显示的名称是Colin,则不执行后续语句。若不是则对管理员用户Admin和Colin以外的以外的用户隐藏下面的菜单内容
+    //     remove_menu_page( 'index.php' ); //Dashboard
+    //     remove_menu_page( 'jetpack.php' ); //网站安全，加速插件
+    //     remove_menu_page( 'upload.php' ); //Media
+    //     remove_menu_page( 'plugins.php' ); //插件
+    //     remove_menu_page( 'themes.php' ); //主题/外观
+    //     remove_menu_page( 'tools.php' ); //工具
+    //     remove_menu_page( 'users.php' ); //用户
+    //     remove_menu_page( 'edit.php?post_type=page' ); //页面
+    //     remove_menu_page( 'options-general.php' );//设置
+    //     remove_menu_page( 'edit-comments.php' );//评论
+    //     }
+    //     add_action( 'admin_menu', 'hide_admin_menus' );
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
